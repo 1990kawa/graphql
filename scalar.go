@@ -2,11 +2,11 @@ package graphql
 
 // Note: These custom types are meant to be used in queries for now.
 // But the plan is to switch to using native Go types (string, int, bool, time.Time, etc.).
-// See https://github.com/shurcooL/githubv4/issues/9 for details.
+// See https://github.com/1990kawa/githubv4/issues/9 for details.
 //
 // These custom types currently provide documentation, and their use
 // is required for sending outbound queries. However, native Go types
-// can be used for unmarshaling. Once https://github.com/shurcooL/githubv4/issues/9
+// can be used for unmarshaling. Once https://github.com/1990kawa/githubv4/issues/9
 // is resolved, native Go types can completely replace these.
 
 type (
@@ -49,3 +49,6 @@ func NewInt(v Int) *Int { return &v }
 
 // NewString is a helper to make a new *String.
 func NewString(v String) *String { return &v }
+
+// NewNull is a helper to make a new nil.
+func NewNull() *String { return nil }

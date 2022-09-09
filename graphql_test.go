@@ -8,7 +8,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/shurcooL/graphql"
+	"github.com/1990kawa/graphql"
 )
 
 func TestClient_Query_partialDataWithErrorResponse(t *testing.T) {
