@@ -13,7 +13,7 @@ Installation
 `graphql` requires Go version 1.8 or later.
 
 ```bash
-go get -u github.com/shurcooL/graphql
+go get -u github.com/1990kawa/graphql
 ```
 
 Usage
